@@ -1,6 +1,11 @@
-# Bases
+# Bases en Angular
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.1.
+En este proyecto se encuentran las bases de Angular, en el cual se encuentran los siguientes temas:
+
+- [x] Creación de un proyecto en Angular
+- [x] Creación de componentes
+- [x] Uso de ngFor y ngIf
+- [x] Creación y funcionamiento de módulos
 
 ## Development server
 
