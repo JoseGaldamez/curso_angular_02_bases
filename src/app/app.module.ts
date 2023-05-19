@@ -7,10 +7,11 @@ import { HeroModule } from './heroes/hero.module';
 
 // Components
 import { AppComponent } from './app.component';
+import { DbzModule } from './dbz/dbz.module';
 
 @NgModule({
   declarations: [AppComponent],
-  imports: [BrowserModule, CounterModule, HeroModule],
+  imports: [BrowserModule, CounterModule, HeroModule, DbzModule],
   providers: [],
   bootstrap: [AppComponent],
 })
