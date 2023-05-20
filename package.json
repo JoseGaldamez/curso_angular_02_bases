@@ -5,8 +5,13 @@
     "ng": "ng",
     "start": "ng serve -o",
     "build": "ng build",
+    "build:href": "ng build --base-href ./",
+    "delete:docs": "rm -r docs",
+    "folder:docs": "mkdir docs",
+    "move:docs": "mv dist/bases/* docs",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "build:pages": "npm run delete:docs && npm run folder:docs && npm run build:href && npm run move:docs"
   },
   "private": true,
   "dependencies": {
